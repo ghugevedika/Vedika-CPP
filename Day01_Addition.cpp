@@ -1,16 +1,15 @@
-#include <iostream>
-using namespace std;
+#include <stdio.h>
 
 int main()
 {
     int a, b, sum;
 
-    cout << "Enter two numbers: ";
-    cin >> a >> b;
+    printf("Enter two numbers: ");
+    scanf("%d %d", &a, &b);
 
     sum = a + b;
 
-    cout << "Sum = " << sum;
+    printf("Sum = %d", sum);
 
     return 0;
 }
