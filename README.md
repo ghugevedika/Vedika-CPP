@@ -1,2 +1,0 @@
-# Vedika-CPP
-C++ programming
